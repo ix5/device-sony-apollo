@@ -61,6 +61,8 @@ PRODUCT_COPY_FILES += \
 # Device Init
 PRODUCT_PACKAGES += \
     fstab.apollo \
+    fstab.apollo_first_stage \
+    fstab.persist \
     init.recovery.apollo \
     init.apollo
 
